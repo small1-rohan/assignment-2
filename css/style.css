@@ -539,4 +539,10 @@ footer h5 {
   .extra div {
     width: 100%;
   }
+  
+.extra .sub {
+    border-top: 2px solid;
+    border-left: 0;
+    padding: 20px;
+  }
 }
