@@ -30,6 +30,7 @@ li{
 a{
     text-decoration: none;
 }
+
 @media screen and (max-width:577px) {
  
 section, header{
@@ -38,6 +39,7 @@ section, header{
     padding-top: 10px;
 
 }
+
 
 
 }
@@ -67,6 +69,13 @@ font-size: 18px;
 padding: 25px;
 border-radius: 5px;
 color: #424242;
+}
+
+.banner button:hover{
+    color: #FF900E;
+    background-color: transparent;
+    
+    box-shadow: 1px 0px 10px -2px rgba(0,0,0,0.55);
 }
 /* nav responsiv============================================================== */
 @media screen and (max-width:577px) {
@@ -116,7 +125,7 @@ width: 60%;
 color: #727272;
 }
 .banner button{
-    
+    transition: .5s;
 width: 180px;
 height: 64px;
 border: 0;
@@ -160,3 +169,71 @@ border-radius: 8px;
 
 
 }
+
+/* features=================================================================================== */
+.features{
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.features .txt{
+    width: 46%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.features button:hover{
+    color: #FF900E;
+    background-color: transparent;
+    
+    box-shadow: 1px 0px 10px -2px rgba(0,0,0,0.55);
+}
+.features button{
+    transition: .5s;
+    width: 180px;
+    height: 64px;
+    border: 0;
+    
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background: #FF900E;
+    border-radius: 8px;
+    }
+
+    .features .imgs{
+        display: grid;
+        width: 46%;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .features img{
+        width: 100%;
+    }
+    .features p{
+        margin: 20px 0;
+        
+color: #727272;
+
+font-weight: 400;
+font-size: 16px;
+    }
+    .features h2{
+        color: black;
+        
+font-weight: 500;
+font-size: 45px;
+    }
+    .features .qc{
+        
+color: #727272;
+    }
+    .features .fe{
+        color: #FF900E;
+    }
+
+
+    /* features res============================================== */
