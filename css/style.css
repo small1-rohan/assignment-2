@@ -491,6 +491,7 @@ footer h5 {
 }
 .extra input {
   width: 60%;
+  outline: none;
   height: 30px;
   border: 0;
   margin: 20px 0 20px;
